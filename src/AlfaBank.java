@@ -94,7 +94,8 @@ public class AlfaBank {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
+        String gifName = gif.split("/")[5];
+        gif = "http://i.qiphy.com/"+gifName+".gif";
         return gif;
     }
 }
