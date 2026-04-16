@@ -67,7 +67,7 @@ public class AlfaBank {
     static String getGif(String q) {
         String gif = "";
         final String APP_KEY = "yogxacUoXdKZX0wkD0depV72uwdbz3gj";
-        String spec = "https://api.giphy.com/v1/gifs/search?api_key=" + APP_KEY + "&q=" + q + "&limit=10";
+        String spec = "https://api.giphy.com/v1/gifs/search?api_key=" + APP_KEY + "&q=" + q + "&limit=1";
 
         try {
             URL url = new URL(spec);
